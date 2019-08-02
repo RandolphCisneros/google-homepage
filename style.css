@@ -1,6 +1,157 @@
+html {
+    display: block;
+    color: -internal-root-color;
+}
+
+
+body, html {
+    font-size: small;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    background: #fff;
+    color: #222;
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+div {
+    display: block;
+}
+
+#searchform {
+    width: 100%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+div#searchform {
+    min-width: 980px;
+    z-index: 103;
+}
+
+.hp #searchform {
+    position: absolute;
+    top: 311px;
+}
+
+div#searchform.jhp {
+    margin-top: 0;
+}
+
+#gb {
+    font-size: 13px;
+    position: relative;
+    top: 8px;
+}
+
+.jhp>#gb {
+    position: fixed;
+    top: 16px;
+    width: 100%;
+    min-width: 980px;
+    z-index: 103;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #609;
+}
+
+#hptl {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
 #hptl a {
     display: inline-block;
     padding-left: 15px;
     color: #000;
     opacity: 0.75;
+}
+
+.sfbg {
+    height: 69px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.tsf {
+    background: none;
+}
+
+#tsf {
+    width: 833px;
+}
+
+.big form#tsf, form#tsf {
+    width: auto;
+    max-width: 784px;
+    overflow: hidden;
+}
+
+.hp #tsf {
+    margin: 0 auto;
+    width: 833px;
+}
+
+.jhp>#tsf {
+    max-width: none;
+}
+
+.A8SBwf {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 484px;
+}
+
+.nojsv {
+    visibility: hidden;
+}
+
+div.sfbg, div.sfbgg {
+    min-width: 980px;
+    height: 64px;
+}
+
+.fbar {
+    font-size: small;
+}
+
+.fbar {
+    margin-left: -27px;
+}
+
+#fbar {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+}
+
+Style Attribute {
+    height: auto;
+    visibility: visible;
+}
+
+#footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
 }
