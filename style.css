@@ -23,6 +23,30 @@ body, td, a, p, .h {
     display: block;
 }
 
+center {
+    text-align: -webkit-center;
+}
+
+img[Style] {
+    height: 92px;
+    width: 272px;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #609;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .content {
     padding-bottom: 35px;
 }
@@ -240,6 +264,51 @@ a:visited {
     flex: 100%;
     -webkit-tap-highlight-color: transparent;
     margin-top: -37px;
+}
+
+.gb_Oa {
+    min-width: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    z-index: 986;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-user-select: none;
+}
+
+.gb_Ag {
+    white-space: nowrap;
+}
+
+.gb_be {
+    line-height: normal;
+    padding-right: 15px;
+}
+
+.gb_f .gb_e {
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.gb_f.gb_g {
+    display: none;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.gb_Dg.gb_Dg .gb_f {
+    display: inline-block;
+}
+
+#gb#gb a.gb_d, #gb#gb a.gb_e, #gb#gb span.gb_e {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
 }
 
 .vdLsw {
