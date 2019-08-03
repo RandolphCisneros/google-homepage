@@ -278,6 +278,33 @@ form {
     -webkit-user-select: none;
 }
 
+.gb_1, .gb_2, .gb_4, .gb_5 {
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.gb_5 {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+}
+
+#gb a.gb_5.gb_5 {
+    color: #fff;
+}
+
+#gb a.gb_5.gb_5 {
+    cursor: default;
+    text-decoration: none;
+}
+
 .gb_Ag {
     white-space: nowrap;
 }
@@ -286,6 +313,13 @@ form {
     line-height: normal;
     position: relative;
     text-align: left;
+}
+
+.gb_lg, .gb_mg {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    position: relative;
+    vertical-align: middle;
 }
 
 .gb_rc {
