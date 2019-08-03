@@ -3,7 +3,6 @@ html {
     color: -internal-root-color;
 }
 
-
 body, html {
     font-size: small;
 }
@@ -340,6 +339,14 @@ a:visited {
     text-decoration: none;
 }
 
+#gb#gb a.gb_z {
+
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
 .gb_gd {
     display: inline-block;
     padding: 0 0 0 15px;
@@ -456,9 +463,6 @@ div.sfbg, div.sfbgg {
 
 .fbar {
     font-size: small;
-}
-
-.fbar {
     margin-left: -27px;
 }
 
