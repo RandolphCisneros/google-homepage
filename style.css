@@ -266,6 +266,21 @@ a:visited {
     margin-top: -37px;
 }
 
+.gb_z {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .gb_Oa {
     min-width: 165px;
     padding-left: 30px;
@@ -282,6 +297,68 @@ a:visited {
 
 .gb_Ag {
     white-space: nowrap;
+}
+
+.gb_Xc {
+    line-height: normal;
+    position: relative;
+    text-align: left;
+}
+
+.gb_rc {
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+}
+
+.gb_y .gb_z {
+    background-position: -132px -38px;
+    opacity: .55;
+}
+
+#gb#gb a.gb_z {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gb_Rf .gb_Ag {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.gb_Xc.gb_g, .gb_be.gb_g, .gb_Fa.gb_g {
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-flex: 0 1 main-size;
+    flex: 0 1 main-size;
+}
+
+.gb_Jf {
+    position: relative;
+}
+
+.gb_gd {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    vertical-align: middle;
+}
+
+.gb_gd:first-child, #gbsfw:first-child+.gb_gd {
+    padding-left: 0;
+}
+
+.gb_Ag, .gb_g {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.gb_g {
+    display: inline-block;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 main-size;
+    flex: 0 0 main-size;
 }
 
 .gb_be {
