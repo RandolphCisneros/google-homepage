@@ -97,6 +97,13 @@ div#viewport {
     flex-direction: row;
 }
 
+.EvHmz {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
 .fbar {
     font-size: small;
     margin-left: -27px;
@@ -139,10 +146,19 @@ form {
     z-index: 0;
 }
 
+#fsl {
+    white-space: nowrap;
+    margin-left: 30px;
+}
+
 #fsr {
     float: right;
     white-space: nowrap;
     margin-right: 30px;
+}
+
+#ftby>div, #fll>div, #footer a {
+    display: inline-block;
 }
 
 .ftl, #footer a {
@@ -165,35 +181,6 @@ form {
     font: 16px arial,sans-serif;
     line-height: 34px;
     height: 34px !important;
-}
-
-.gLFyf {
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    color: rgba(0,0,0,.87);
-    word-wrap: break-word;
-    outline: none;
-    display: flex;
-    flex: 100%;
-    -webkit-tap-highlight-color: transparent;
-    margin-top: -37px;
-}
-
-.gb_z {
-    display: inline-block;
-    outline: none;
-    vertical-align: middle;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 30px;
-    width: 30px;
-    color: #000;
-    cursor: pointer;
-    text-decoration: none;
 }
 
 .gb_Oa {
@@ -271,6 +258,10 @@ form {
     text-decoration: none;
 }
 
+.gb_Dg.gb_Dg .gb_f {
+    display: inline-block;
+}
+
 .gb_Rf .gb_Ag {
     display: -webkit-flex;
     display: flex;
@@ -302,13 +293,6 @@ form {
     margin-right: 0!important;
 }
 
-.gb_g {
-    display: inline-block;
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    -webkit-flex: 0 0 main-size;
-    flex: 0 0 main-size;
-}
 
 .gb_be {
     line-height: normal;
@@ -328,13 +312,46 @@ form {
     vertical-align: middle;
 }
 
-.gb_Dg.gb_Dg .gb_f {
+.gb_g {
     display: inline-block;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 main-size;
+    flex: 0 0 main-size;
+}
+
+.gb_z {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #gb#gb a.gb_d, #gb#gb a.gb_e, #gb#gb span.gb_e {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
+}
+
+.gLFyf {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
 }
 
 .hp #searchform {
